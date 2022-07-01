@@ -1,0 +1,5 @@
+readFile=open("newFile")
+writeFile=open("nextFile",'w')
+writeFile.write(readFile.read())
+readFile.close()
+writeFile.close()

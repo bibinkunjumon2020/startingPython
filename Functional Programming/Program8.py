@@ -1,0 +1,1 @@
+print([("even",i) if i%2==0 else ("odd",i) for i in range(1,31)])
